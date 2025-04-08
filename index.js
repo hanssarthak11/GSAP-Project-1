@@ -36,7 +36,6 @@ var tl2 = gsap.timeline({
     scrollTrigger:{
         trigger:".section-2",
         scroller:"body",
-        // markers:true,
         scrub:2,
         start:"top 100%",
         end:"top 5%",
@@ -88,7 +87,6 @@ var tl4 = gsap.timeline({
         trigger:"footer",
         scroller:"body",
         scrub:1.7,
-        markers:true,
         start:"top 75%",
         end:"top 65%"
     }
